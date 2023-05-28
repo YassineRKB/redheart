@@ -1,6 +1,7 @@
 ## Project Description:
 ReadHeart is mainly a file fingerprint reliant antivirus written in C.
-
+Disclaimer: this project is only meant to augment my understanding of C and linux environment.
+<p>This Project is not meant for production or commercial use, as from its very conception it is fataly flawed, threats in the cyber space are very advanced and you need to entrust your security to other proffesional solutins, due the concept redheart is relaying on is basic and can easily be mitigated, hence no detection will happen scanning advanced threats using tactics from payloads, unknow variations, etc. </p>
 ## Project Diagram:
 ![project-Diagran](https://github.com/YassineRKB/redheart/blob/main/images/project-diagram.svg)
 
