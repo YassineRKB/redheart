@@ -5,9 +5,9 @@ ReadHeart is mainly a file fingerprint reliant antivirus written in C.
 ![project-Diagran](https://github.com/YassineRKB/redheart/blob/main/images/project-diagram.svg)
 
 ## Project Structure:
-> ./red => an executable.
-> ./core/dbfile.rh => file that contains known fingerprints
-> ./{mode}-result-{date}-{time}.txt => default result file to be generated if flags dont specify a desired output.
+> ./red => an executable |
+> ./core/dbfile.rh => file that contains known fingerprints |
+> ./{mode}-result-{date}-{time}.txt => default result file to be generated if flags dont specify a desired output. |
 
 ## TODO-List:
 + [ ] Menu.
