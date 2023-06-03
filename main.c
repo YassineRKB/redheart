@@ -11,17 +11,17 @@ int main(int ac, char **av)
 	const char *TargetFile, *KnownHash;
 	char md5Hash[(hashlen * 2 + 1)];
 	int status = 0;
-	// check args len
+	/* check args len */
 	if (ac != 3)
 		exit(EXIT_USAGE);
-	// init variables with data
+	/* init variables with data */
 	TargetFile = av[1];
 	KnownHash = av[2];
 	md5Hash[0] = '\0';
 
-	// calculate hash of target file
+	/* calculate hash of target file */
 	md5_Calc(TargetFile, md5Hash);
-	// compare hash
+	/* compare hash */
 	status = strcmp(md5Hash, KnownHash);
 	if (status != 0)
 		printf("%s is not a know malware\n", TargetFile);

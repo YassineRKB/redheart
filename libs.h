@@ -14,8 +14,7 @@
 #define EXIT_SUCCESS 0
 #define EXIT_FAIL 100
 #define EXIT_USAGE 101
-#define EXIT_FILENO_MISS 102
-#define EXIT_FILENO_CURR 103
+#define EXIT_FILENO_ERRO 102
 
 // prototypes
 int compareHash(char *md5Hash, const char *KnownHash);
