@@ -12,13 +12,16 @@ This Project is not meant for production or commercial use, as from its very con
 > ./core/dbfile.rh => file that contains known fingerprints |
 > ./{mode}-result-{date}-{time}.txt => default result file to be generated if flags dont specify a desired output. |
 
+## Project Branches:
+>  [basicFileVsHash](https://github.com/YassineRKB/redheart/tree/basicFileVsHash)
+> [main](https://github.com/YassineRKB/redheart/tree/main)
 ## TODO-List:
 + [ ] Menu.
-+ [ ] Function to calculate file fingerprint.
++ [x] Function to calculate file fingerprint.
 + [ ] Function to read db file and handle {category:fingerprint}.
 + [ ] Function to handle Updates append updates to existing db and creating backup inside core folder.
-+ [ ] Handle Arguments.
-+ [ ] Function to handle Specific File(s) scan mode.
++ [x] Handle Arguments.
++ [x] Function to handle Specific File(s) scan mode.
 + [ ] Function to handle System Wide Scan mode.
 
 <hr>
