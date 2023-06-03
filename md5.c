@@ -32,9 +32,11 @@ void md5_Calc(const char *targetFile, char *md5Hash)
 	if (!c)
 		printf("Error Allocating Memory via Openssl malloc\n");
 	EVP_DigestFinal_ex(eCTX, c, &md5len);
-	/* closing file stream */
-	fclose(file);
 	/* constructing md5 hash */
 	while (i < md5len)
 		sprintf(&md5Hash[i * 2], "%02x", c[i]), i++;
+	/* closing file stream & garbage collection */
+	fclose(file);
+	EVP_MD_CTX_free(eCTX);
+	OPENSSL_free(c);
 }
