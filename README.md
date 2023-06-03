@@ -5,7 +5,7 @@ This Project is not meant for production or commercial use, as from its very con
 <hr>
 
 ## Project Diagram:
-![project-Diagran](https://raw.githubusercontent.com/YassineRKB/redheart/1b8082686a00df7920456db42b16f9eec37b696c/images/project-diagram.svg)
+![project-Diagran](https://raw.githubusercontent.com/YassineRKB/redheart/basicFileVsHash/images/project-diagram.svg)
 
 ## Project Structure:
 > ./red => an executable |
