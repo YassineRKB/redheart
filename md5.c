@@ -1,6 +1,6 @@
 #include "libs.h"
 /**
- * md5_calc - function to calculate file's hash
+ * md5_Calc - function to calculate file's hash
  * @targetFile: filename of target file
  * @md5Hash: pointer to string, where calculated hash will be stored
  * Return: Void
