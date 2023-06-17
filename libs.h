@@ -1,4 +1,5 @@
 #ifndef _LIBS_H
+#define _LIBS_H
 // headers import
 #include <stdio.h>
 #include <stdlib.h>
